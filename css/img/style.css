@@ -21,7 +21,11 @@ color: var(--main-color);
 }
 
 .header {
-border: 1px solid #ECECEC;
+height: 80px;
+}
+
+.portfolio-header {
+border: 1px solid #ECECEC; 
 }
 
 .section {
@@ -140,7 +144,7 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white);
 background-color: var(--dark-color);
-margin: 0;
+margin: 0 0 30px;
 }
 
 .hero-btn {
@@ -330,6 +334,20 @@ justify-content: space-around;
 margin: 28px 44px 36px; 
 }
 
+.sociallink-item {
+width: 20px;
+height: 20px;
+margin-right: 34px; 
+}
+
+.sociallink-item:first-child {
+  margin-left: 44px;
+}
+
+.sociallink-item:last-child {
+  margin-right: 44px;
+}
+
 .clients {
 font-weight: 700;
 font-size: 36px;
@@ -428,7 +446,7 @@ background: #2F303A;
 
 .footer-container {
 display: flex;
-padding: 60px 0;
+padding: 60px 15px;
 }
 
 .footer-item {
@@ -476,6 +494,8 @@ justify-content: start;
 }
 
 .footer-sociallink-item {
+width: 20px;
+height: 20px;
 margin-right: 34px;
 }
 
