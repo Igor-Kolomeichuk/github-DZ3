@@ -79,12 +79,6 @@ padding: 0;
 margin: 0;
 }
 
-.nav-item {
-line-height: 1.143;
-letter-spacing: 0.02em;  
-}
-
-
 .nav-item:not(:last-child) {
   margin-right: 50px;
   align-items: center;
@@ -123,10 +117,10 @@ color: var(--accent-color)
 }
 
 .flexbox {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 80px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+height: 80px;
 }
 
 .contacts-item:not(:last-child) {
@@ -135,8 +129,11 @@ align-items: center;
 }
 
 .item-list {
-  padding-top: 32px;
-  margin-bottom: 32px;
+  height: 48px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+padding-top: 32px;
+margin-bottom: 32px;
 }
 
 .page-title {
